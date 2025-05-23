@@ -1,6 +1,6 @@
 # Social Links Profile – Frontend Mentor
 
-###Mira mi solucion en -> 🔗 [Ver sitio en vivo](https://rdz-social-card.netlify.app/)
+### Mira mi solucion en -> 🔗 [Ver sitio en vivo](https://rdz-social-card.netlify.app/)
 
 ![image](https://github.com/user-attachments/assets/9105e277-86b3-4923-b50f-e04bb92b5106)
 
