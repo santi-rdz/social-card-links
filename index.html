@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container flex-center">
+        <article class="social-card flex-col">
+          <header class="card-header flex-col">
+            <div class="card-img-container">
+              <img
+                class="card-user--img"
+                src="assets/images/avatar-jessica.jpeg"
+                alt="Profile photo of
+              Jessica Randall"
+              />
+            </div>
+            <div class="flex-col">
+              <h1 class="card-user--name txt-1">Jessica Randall</h1>
+              <p class="card-user--location txt-2-bold">
+                London, United Kingdom
+              </p>
+            </div>
+
+            <p class="card-user--job txt-2">
+              "Front-end developer and avid reader."
+            </p>
+          </header>
+          <nav class="card-links-wrapper" aria-label="Social links">
+            <ul class="card-links--ul">
+              <li class="card-link txt-2-bold"><a href="#">GitHub</a></li>
+              <li class="card-link txt-2-bold">
+                <a href="#">Frontend Mentor</a>
+              </li>
+              <li class="card-link txt-2-bold"><a href="#">LinkedIn</a></li>
+              <li class="card-link txt-2-bold"><a href="#">Twitter</a></li>
+              <li class="card-link txt-2-bold"><a href="#">Instagram</a></li>
+            </ul>
+          </nav>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
